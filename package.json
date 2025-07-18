@@ -13,16 +13,8 @@
     "predeploy": "yarn build",
     "deploy": "gh-pages -d dist"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/sureshmurali/My-Portfolio.git"
-  },
   "author": "Suresh Murali",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/sureshmurali/My-Portfolio/issues"
-  },
-  "homepage": "https://github.com/sureshmurali/My-Portfolio#readme",
   "devDependencies": {
     "@vitejs/plugin-react": "^4.2.1",
     "eslint": "^8.43.0",
