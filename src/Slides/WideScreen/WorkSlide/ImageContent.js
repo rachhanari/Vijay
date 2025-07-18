@@ -108,13 +108,13 @@ class ImageContent extends Component {
           />
         </ImageBox>
         <ImageBox height={boxHeight}>
-          <VoistrapImages
+          {/* <VoistrapImages
             boxHeight={boxHeight}
             index={6}
             scrollPercent={scrollPercent}
             screenHeight={screenHeight}
             scrollHeight={scrollHeight}
-          />
+          /> */}
         </ImageBox>
       </ImageContainer>
     );
