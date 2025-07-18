@@ -1,0 +1,47 @@
+{
+  "name": "my_portfolio",
+  "version": "1.1.0",
+  "description": "Suresh Murali's Portfolio",
+  "engines": {
+    "node": ">=22.13.0",
+    "npm": ">=9.5.1",
+    "yarn": ">=1.22.22"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "vite",
+    "build": "vite build",
+    "predeploy": "yarn build",
+    "deploy": "gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sureshmurali/My-Portfolio.git"
+  },
+  "author": "Suresh Murali",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sureshmurali/My-Portfolio/issues"
+  },
+  "homepage": "https://github.com/sureshmurali/My-Portfolio#readme",
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.2.1",
+    "eslint": "^8.43.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-jsx-a11y": "^6.7.1",
+    "eslint-plugin-react": "^7.32.2",
+    "gh-pages": "^6.3.0",
+    "vite": "^5.0.10"
+  },
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "prop-types": "^15.8.1",
+    "react": "^16.14.0",
+    "react-dom": "^16.14.0",
+    "react-responsive": "^6.0.1",
+    "styled-components": "^4.4.1",
+    "ua-parser-js": "^0.7.33",
+    "vh-check": "^2.0.5"
+  }
+}
